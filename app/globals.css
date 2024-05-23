@@ -24,10 +24,34 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+  font-family: Arial, sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+/* @layer base {
+  
+} */
+
+@layer components {
+  .link {
+    @apply border border-black px-3 rounded-full bg-white text-black hover:border-white hover:bg-black hover:text-white transition-colors duration-300
+  }
+
+  .button {
+    @apply px-3 border rounded-full hover:bg-white hover:text-black transition-colors duration-300 
+  }
+
+  .button_hover {
+    @apply border border-white w-full py-1 text-center rounded-full hover:bg-black hover:text-white transition-colors duration-300 
+  }
+
+  .button_price {
+    @apply p-2 border rounded-full hover:text-black hover:bg-white transition-colors duration-300
   }
 }
