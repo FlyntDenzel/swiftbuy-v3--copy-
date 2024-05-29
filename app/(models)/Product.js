@@ -7,7 +7,7 @@ const productSchema = new Schema(
   {
     title: String,
     description: String,
-    phone: Number,
+    mobile: Number,
     price: Number,
   },
   {

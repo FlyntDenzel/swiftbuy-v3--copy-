@@ -58,7 +58,7 @@ const CreatePage = () => {
           onChange={handleChange}
           required={true}
           value={formData.title}
-          className="text-black"
+          className=" p-2"
         />
         <label>Prod Description</label>
         <textarea
@@ -68,7 +68,7 @@ const CreatePage = () => {
           required={true}
           value={formData.description}
           rows="5"
-          className="text-black"
+          className=" p-2"
         />
         <label>Phone Number</label>
         <input
@@ -77,7 +77,7 @@ const CreatePage = () => {
           id="mobile"
           onChange={handleChange}
           value={formData.mobile}
-          className="text-black"
+          className=" p-2"
         />
         <label>Product Price</label>
         <input
@@ -86,7 +86,7 @@ const CreatePage = () => {
           id="price"
           onChange={handleChange}
           value={formData.price}
-          className="text-black"
+          className=" p-2"
         />
 
         <input

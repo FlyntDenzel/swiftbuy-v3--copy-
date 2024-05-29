@@ -27,7 +27,6 @@ const HomePage = async () => {
       <Header />
 
       <div className="max-sm:hidden border p-3 m-3 rounded-md grid grid-cols-3 ">
-      
         {products.map((product) => (
           <Link href={`/${product._id}`} key={product._id} className="mb-3">
             <div className="border rounded-md m-3 p-3">
